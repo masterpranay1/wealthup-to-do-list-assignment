@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List - wealthup.me assignment</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="/src/styles/global.css" />
   </head>
   <body>
+    <main class="container">
+      <div class="grid">
+        <input type="text" id="task-input" placeholder="Add a new task" />
+        <input type="search" id="search-input" placeholder="Search" />
+      </div>
+
+      <ul id="task-container">
+        <!-- Task goes here -->
+      </ul>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
